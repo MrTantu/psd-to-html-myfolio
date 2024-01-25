@@ -1,0 +1,366 @@
+/* common css start */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.container{
+    width: 100%;
+    margin: auto;
+}
+
+
+/* common css end */
+/* section one/nav start */
+
+.container{
+   max-width: 100%;
+    width: 100%;
+   
+   
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #02918c;
+}
+.logo{
+    width: 50%;
+}
+ul li{
+    display: inline-block;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 26px 18px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,       Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+    font-weight: 800;
+
+}
+ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ffffff;
+
+}
+
+
+/* section one/nav end */
+/* banner start */
+.banner{
+    background-image: url(./img/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    max-width: 100%;
+    width: 100%;
+    height: 728px;
+    text-align: center;
+    padding-top: 211px;
+    padding-bottom: 211px;
+    padding-left: 240px;
+    padding-right: 204px;
+    color: #ffffff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   font-weight: 400;
+}
+.banner h3{
+    font-size: 30px;   
+}
+.banner h1{
+    font-size: 68px;
+    text-transform: uppercase;
+    letter-spacing: 13px;
+    font-weight: 800;
+}
+.banner h4{
+    font-size: 18px;
+}
+.banner img{
+    padding: 45px 0px;
+}
+.banner p{
+    margin: auto;
+    width: fit-content;
+    color: black;
+    background-color: yellow;
+    text-transform: uppercase;
+    padding: 10px 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 800;
+}
+
+/* banner end */
+/* about section start */
+
+  .about {
+    text-align: center;
+    padding: 98px 0px;
+    background-color: white;
+    color: #7e8287;
+    
+  }
+  .about h1{
+    text-transform: uppercase;
+    font-weight: 800;
+    color: #02918c;
+    font-size: 46px;
+
+  }
+  .about p{
+    padding: 38px 0px;
+
+  }
+  
+  .about h4{
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0 190px;
+
+  }
+  .about h4 span{
+    font-size: 23px;
+    font-weight: 800;
+    }
+  .about-card{
+    display: flex;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 159px;
+
+  }
+  .about-card .card{
+    width: 25%;
+    text-align: center;
+    padding: 35px 75px;
+    border-right: 0.5px solid #7e8287;
+  
+  }
+  .about-card .card span{
+    color: #02918c;
+    font-size: 30px;
+  }
+ .about-card .card h2{
+  padding: 30px 25px;
+  font-size: 16px;
+  font-weight: 800;
+  color: #7e8287;
+ }
+ .about-card .card p{
+  font-size: 11px;
+ }
+
+/* about section end */
+/* service start */
+.services{
+  background-image: url(./img/service-photo.jpg);
+  background-size: cover;
+  background-position: center;
+  max-width: 100%;
+  width: 100%;
+  height: 728px;
+  padding: 98px 80px;
+ 
+}
+.service-head {
+  width: 50%;
+  text-align: left;
+  color: #7e8287;
+
+}
+.service-head h1{
+  text-transform: uppercase;
+  font-weight: 800;
+  color: #02918c;
+  font-size: 46px;
+
+}
+.service-head p{
+  padding: 35px 0px;
+
+}
+.service-head h4{
+  font-size: 16px;
+  font-weight: 400;
+
+}
+.service-card{
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.service-card .card{
+  width: 50%;
+  text-align: left;
+  padding-top: 61px;
+  padding-right: 110px;
+
+}
+.service-card .card span{
+  color: #02918c;
+  font-size: 30px;
+}
+.service-card .card h2{
+  padding: 10px 0;
+  font-size: 16px;
+  font-weight: 800;
+  color: #7e8287;
+}
+.service-card .card p{
+  font-size: 11px;
+  font-weight: 400;
+  color: #7e8287;
+}
+
+
+
+/* service end */
+/* my work start */
+
+.my-work-head {
+  text-align: center;
+  padding: 98px 0px;
+  background-color: white;
+  color: #7e8287;
+  
+}
+.my-work-head h1{
+  text-transform: uppercase;
+  font-weight: 800;
+  color: #02918c;
+  font-size: 46px;
+
+}
+.my-work-head p{
+  padding: 33px 0px;
+
+}
+.my-work-head h4{
+  font-size: 16px;
+  font-weight: 400;
+  padding: 0px 303px;
+}
+
+
+/* my head image portion */
+.images{
+  width: 100%;
+  margin: auto;
+  
+}
+.images .all-image{
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
+.all-image .img{
+  width: 25%;
+  display: block;
+}
+.all-image .content{
+  width: 22%;
+  margin: 20px;
+  text-align: center;
+  background-color: #02918c;
+  color: white;
+  padding: 40px 30px;
+  display: block;
+  top: 0;
+  left: 0;
+  position: absolute;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+
+}
+.content:hover{
+  opacity: 1;
+}
+.images .all-img .overlay h1{
+  font-size: 23px;
+
+}
+.images .all-img .overlay h4{
+  font-size: 16px;
+}
+
+/* my work end */
+/* contact start */
+.contact {
+  text-align: center;
+  padding: 98px 0px;
+  background-color: white;
+  color: #7e8287;
+  
+}
+.contact h1{
+  text-transform: uppercase;
+  font-weight: 800;
+  color: #02918c;
+  font-size: 46px;
+
+}
+.contact p{
+  padding: 38px 0px;
+
+}
+.contact h4{
+  font-size: 16px;
+  font-weight: 400;
+  padding: 0px 303px;
+}
+/* contact end */
+/* last input field start*/
+
+.input-content{
+text-align: center;
+background-color: #0b0b0b;
+padding: 70px 0;
+
+}
+.input-content input{
+  color: #7e8287;
+  background-color: #0b0b0b;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  border-bottom: 2px solid #7e8287;
+  border-right: 0;
+  border-left: 0;
+  border-top: 0;
+  padding: 63px 0;
+}
+.input-content .name{
+
+  padding: 20px 297px;
+}
+.input-content .email{
+  padding:20px 297px;
+}
+.input-content .subject{
+  padding: 20px 437px;
+}
+.input-content .message{
+  padding: 20px 437px;
+}
+
+
+
+
+
+.input-content p{
+  margin: auto;
+  width: fit-content;
+  color: black;
+  background-color: yellow;
+  text-transform: uppercase;
+  padding: 10px 30px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 800;
+  margin-top: 68px;
+}
+/* last input field end */
